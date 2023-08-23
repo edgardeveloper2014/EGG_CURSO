@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Integrando  Javascript</title>
+    <script src="integrando.js"></script>
+    </head>
+<body id="fondo">
+   <p>1.Escribe un programa que solicite al usuario su nombre y muestre un mensaje de bienvenida personalizado en la p&aacute;gina web.</p> 
+   <form>
+    <div class="horizontal">
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre">
+    </div>
+    <button type="button" onclick="enviar()"> Enviar</button>
+
+   </form>
+   <div id="mensaje" style="background-color: black; color: darkgoldenrod;"></div>
+   <p> 2.Implementa una función que cambie el color de fondo de tu página web cada vez que se haga clic en un botón.</p>
+   <button type="button" onclick="cambiar_fondo()"> Cambiar Fondo</button>
+   <p>3.Crea un programa que solicite al usuario un número y luego genere una tabla de multiplicar para ese número en tu página web. Utiliza estructuras de control para generar los elementos de la tabla</p>
+   <form>
+    <div class="horizontal">
+        <label for="nombre">N&Uacute;mero</label>
+        <input type="text" name="numero" id="numero">
+    </div>
+    <button type="button" onclick="generar_tabla()"> Generar</button>
+    <div id="tabla" style="background-color: #3CDE3C; color: #7E3148;"></div>
+   </form>
+</body>
+</html>

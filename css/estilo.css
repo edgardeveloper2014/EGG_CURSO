@@ -1,0 +1,16 @@
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(55, 81, 83);
+    color:floralwhite;
+    text-align: center;
+    font-size: 18px;
+}
+h1{
+color: goldenrod;
+text-align: left;
+font-size: 30px;
+}
+P{
+color: #fff;
+background-color: rgb(33, 4, 46);
+}
